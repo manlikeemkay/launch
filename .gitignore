@@ -1,0 +1,71 @@
+# .gitignore Configuration File.
+# Author: Mohamed Kherroubi.
+# Last Modified: 07/04/2020.
+# Modified from a file created by https://www.gitignore.io/api/node,bower,macos,angular.
+
+### Angular ###
+.idea/
+.sass-cache/
+app/**/*.js
+app/**/*.js.map
+bower_components/
+connect.lock/
+coverage/
+dist/
+e2e/*.js
+e2e/*.map
+libpeerconnection.log/
+node_modules/
+npm-debug.log
+testem.log
+tmp/
+typings/
+
+### Bower ###
+.bower-cache
+.bower-registry
+.bower-tmp
+bower_components
+
+### macOS ###
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Network Trash Folder
+Temporary Items
+
+### Node ###
+.grunt
+.npm
+*.log
+*.pid
+*.pid.lock
+logs
+node_modules/
+npm-debug.log*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Custom ###
+.zip
