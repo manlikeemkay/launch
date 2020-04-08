@@ -1,10 +1,19 @@
 /**
  * Foundation for Sites by ZURB
- * Version 6.4.3
+ * Version 6.6.2
  * https://foundation.zurb.com/sites/docs/
  */
 
 @charset "utf-8";
+
+@import "vendor/normalize";
+@import "../_vendor/sassy-lists/stylesheets/helpers/missing-dependencies";
+@import "../_vendor/sassy-lists/stylesheets/helpers/true";
+@import "../_vendor/sassy-lists/stylesheets/functions/contain";
+@import "../_vendor/sassy-lists/stylesheets/functions/purge";
+@import "../_vendor/sassy-lists/stylesheets/functions/remove";
+@import "../_vendor/sassy-lists/stylesheets/functions/replace";
+@import "../_vendor/sassy-lists/stylesheets/functions/to-list";
 
 @import "util/util";
 @import "settings";
