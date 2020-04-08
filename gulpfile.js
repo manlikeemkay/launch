@@ -59,7 +59,7 @@ gulp.task("transpile", function () {
         .pipe(
             babel({
                 compact: false,
-                presets: ["es2015"],
+                presets: ["latest"],
             })
         )
         .pipe(gulp.dest("dist/js/"));
