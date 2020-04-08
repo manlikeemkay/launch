@@ -2,7 +2,6 @@
 
 [![node](https://img.shields.io/badge/node-v11.2.0-green.svg)](https://nodejs.org/en/)
 [![npm](https://img.shields.io/badge/npm-v6.4.1-blue.svg)](https://www.npmjs.com/)
-[![bower](https://img.shields.io/badge/bower-1.8.4-yellow.svg)](https://bower.io/)
 [![gulp](https://img.shields.io/badge/gulp-3.9.1-red.svg)](https://gulpjs.com/)
 
 ![Launch](https://media.giphy.com/media/kjjRGpezebjaw/giphy.gif)
@@ -13,7 +12,6 @@ Launch is a simple boilerplate project to help reduce the set up time of new sta
 
 - [Autoprefixer](https://autoprefixer.github.io/)
 - [Babel](https://babeljs.io/)
-- [Bower](https://bower.io/)
 - [BrowserSync](https://www.browsersync.io/)
 - CSS3
 - [Foundation](https://foundation.zurb.com/sites.html)
@@ -42,7 +40,6 @@ git clone https://github.com/manlikeemkay/launch.git .
 3. Install build and application dependencies.
 
 ```
-bower install
 npm install
 ```
 

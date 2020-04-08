@@ -11,8 +11,7 @@
     "eof-newline": true,
     "exclude": [
         ".git/**",
-        "node_modules/**",
-        "bower_components/**"
+        "node_modules/**"
     ],
     "leading-zero": true,
     "quotes": "double",

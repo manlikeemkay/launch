@@ -1,14 +1,13 @@
 # .gitignore Configuration File.
 # Author: Mohamed Kherroubi (@manlikeemkay).
 # Last Modified: 07/04/2020.
-# Modified from a file created by https://www.gitignore.io/api/node,bower,macos,angular.
+# Modified from a file created by https://www.gitignore.io/api/node,macos,angular.
 
 ### Angular ###
 .idea/
 .sass-cache/
 app/**/*.js
 app/**/*.js.map
-bower_components/
 connect.lock/
 coverage/
 dist/
@@ -20,12 +19,6 @@ npm-debug.log
 testem.log
 tmp/
 typings/
-
-### Bower ###
-.bower-cache
-.bower-registry
-.bower-tmp
-bower_components
 
 ### macOS ###
 ._*
