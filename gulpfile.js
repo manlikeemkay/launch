@@ -83,14 +83,7 @@ gulp.task("cssmin", function () {
 gulp.task("jsmin", function () {
     return gulp
         .src("dist/js/**/**.js")
-        .pipe(
-            uglify({
-                mangle: true,
-                preserveComments: false,
-                quoteStyle: 0,
-                screw_ie8: true,
-            })
-        )
+        .pipe(uglify())
         .on("error", function (error) {
             gutil.log(gutil.colors.red("[Error]"), error.toString());
         })
