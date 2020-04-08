@@ -1,7 +1,7 @@
 # .gitignore Configuration File.
 # Author: Mohamed Kherroubi (@manlikeemkay).
 # Last Modified: 07/04/2020.
-# Modified from a file created by https://www.gitignore.io/api/node,macos,angular.
+# Modified from a file created by https://www.gitignore.io/apinode,macos,angular,visualstudiocode.
 
 ### Angular ###
 .idea/
@@ -54,4 +54,4 @@ npm-debug.log*
 .vscode/*
 
 ### Custom ###
-.zip
+*.zip
