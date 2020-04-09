@@ -1,10 +1,15 @@
-# 🚀Launch
+# 🚀 Launch
 
-[![node](https://img.shields.io/badge/node-v11.2.0-green.svg)](https://nodejs.org/en/)
-[![npm](https://img.shields.io/badge/npm-v6.4.1-blue.svg)](https://www.npmjs.com/)
-[![gulp](https://img.shields.io/badge/gulp-3.9.1-red.svg)](https://gulpjs.com/)
+[![Autoprefixer](https://img.shields.io/badge/Autoprefixer-6.1.0-lightgrey.svg?style=flat-square&logo=Autoprefixer)](https://autoprefixer.github.io/)
+[![Babel](https://img.shields.io/badge/Babel-7.9.0-blue.svg?style=flat-square&logo=Babel&color=F9DC3E)](https://babeljs.io/)
+[![BrowserSync](https://img.shields.io/badge/BrowserSync-2.26.7-lightgrey.svg?style=flat-square&logo=BrowserSync)](https://www.browsersync.io/)
+[![Foundation](https://img.shields.io/badge/Foundation-6.6.2-lightgrey.svg?style=flat-square&logo=Foundation)](https://foundation.zurb.com/sites.html)
+[![Gulp](https://img.shields.io/badge/Gulp-3.9.1-red.svg?style=flat-square&logo=gulp&color=DA4648)](https://gulpjs.com/)
+[![jQuery](https://img.shields.io/badge/jQuery-3.4.1-blue.svg?style=flat-square&logo=jQuery&color=0769AD)](https://jquery.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-10.20.0-green.svg?style=flat-square&logo=node.js&color=339933)](https://nodejs.org/en/)
+[![NPM](https://img.shields.io/badge/NPM-6.14.4-blue.svg?style=flat-square&logo=npm&color=CB3837)](https://www.npmjs.com/)
 
-![Launch](https://media.giphy.com/media/kjjRGpezebjaw/giphy.gif)
+![Launch](https://media.giphy.com/media/ALQ6OXrBDqBWw/giphy.gif)
 
 # Introduction
 
