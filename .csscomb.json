@@ -2,6 +2,7 @@
 // Author: Mohamed Kherroubi (@manlikeemkay).
 // Last Modified: 07/04/2020.
 // Amended and extended from that file that be found at https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json.
+
 {
     "always-semicolon": true,
     "block-indent": "    ",
@@ -9,10 +10,7 @@
     "color-shorthand": false,
     "element-case": "lower",
     "eof-newline": true,
-    "exclude": [
-        ".git/**",
-        "node_modules/**"
-    ],
+    "exclude": [".git/**", "node_modules/**"],
     "leading-zero": true,
     "quotes": "double",
     "remove-empty-rulesets": true,

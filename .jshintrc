@@ -2,6 +2,7 @@
 // Author: Mohamed Kherroubi (@manlikeemkay).
 // Last Modified: 07/04/2020.
 // List of rules covered by this configuration can be found at http://jshint.com/docs/options/.
+
 {
     "maxerr": 50,
     "bitwise": true,
