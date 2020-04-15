@@ -10,7 +10,7 @@
 [![NPM](https://img.shields.io/badge/NPM-6.14.4-blue.svg?style=flat-square&logo=npm&color=CB3837)](https://www.npmjs.com/)
 [![Prettier](https://img.shields.io/badge/Prettier-2.0.4-blue.svg?style=flat-square&logo=prettier&color=F7B93E)](https://prettier.io/)
 
-![Launch](https://media.giphy.com/media/ALQ6OXrBDqBWw/giphy.gif)
+![Launch](https://media.giphy.com/media/mi6DsSSNKDbUY/giphy-downsized-large.gif)
 
 # Introduction
 
