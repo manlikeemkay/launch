@@ -126,7 +126,7 @@ gulp.task("archive", function () {
 
 gulp.task("watch", function () {
     browserSync.init({
-        browser: "google chrome canary",
+        browser: "google chrome",
         server: {
             baseDir: "dist/",
         },
