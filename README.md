@@ -8,6 +8,7 @@
 [![jQuery](https://img.shields.io/badge/jQuery-3.4.1-blue.svg?style=flat-square&logo=jQuery&color=0769AD)](https://jquery.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-10.20.0-green.svg?style=flat-square&logo=node.js&color=339933)](https://nodejs.org/en/)
 [![NPM](https://img.shields.io/badge/NPM-6.14.4-blue.svg?style=flat-square&logo=npm&color=CB3837)](https://www.npmjs.com/)
+[![Prettier](https://img.shields.io/badge/Prettier-2.0.4-blue.svg?style=flat-square&logo=prettier&color=F7B93E)](https://prettier.io/)
 
 ![Launch](https://media.giphy.com/media/ALQ6OXrBDqBWw/giphy.gif)
 
@@ -26,6 +27,7 @@ Launch is a simple boilerplate project to help reduce the set up time of new sta
 - [jQuery](https://jquery.com/)
 - [NPM](https://www.npmjs.com/)
 - [SCSS](http://sass-lang.com/)
+- [Prettier](https://prettier.io/)
 
 ## 🐙 Get Started
 
