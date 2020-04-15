@@ -69,17 +69,17 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #00a8ff,
   secondary: #767676,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #cc4b37,
+  success: #4cd137,
+  warning: #fbc531,
+  alert: #e84118,
 );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$light-gray: #b8c0cc;
+$medium-gray: #737880;
+$dark-gray: #393c40;
+$black: #2f3640;
+$white: #f5f6fa;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
