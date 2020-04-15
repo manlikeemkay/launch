@@ -70,6 +70,8 @@ gulp
 
 Comprehensive system fonts: https://css-tricks.com/snippets/css/system-font-stack/ by [@geoffreygraham](https://twitter.com/geoffreygraham).
 
+Flat UI colour scheme (British palette): https://flatuicolors.com/palette/gb.
+
 The MIT License: https://opensource.org/licenses/MIT.
 
 ## ⚖️ License (MIT)
