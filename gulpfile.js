@@ -15,6 +15,7 @@ var autoprefixer = require("gulp-autoprefixer"),
     sass = require("gulp-sass"),
     stripCSSComments = require("gulp-strip-css-comments"),
     uglify = require("gulp-uglify"),
+    uncss = require("gulp-uncss"),
     zip = require("gulp-zip");
 
 gulp.task("clean", function () {
@@ -90,6 +91,17 @@ gulp.task("jsmin", function () {
         .pipe(gulp.dest("dist/js/"));
 });
 
+gulp.task("uncss", function () {
+    return gulp
+        .src("dist/css/**/**.css")
+        .pipe(
+            uncss({
+                html: ["src/index.html"],
+            })
+        )
+        .pipe(gulp.dest("css"));
+});
+
 gulp.task("bump", function () {
     return gulp
         .src("package.json")
@@ -133,6 +145,7 @@ gulp.task("release", function () {
         "copy",
         "transpile",
         "cssmin",
+        "uncss",
         "jsmin",
         "archive"
     );
