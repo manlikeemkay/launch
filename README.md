@@ -72,6 +72,8 @@ Comprehensive system fonts: https://css-tricks.com/snippets/css/system-font-stac
 
 Flat UI colour scheme (British palette): https://flatuicolors.com/palette/gb.
 
+Metadata badges: https://shields.io/.
+
 The MIT License: https://opensource.org/licenses/MIT.
 
 ## ⚖️ License (MIT)
