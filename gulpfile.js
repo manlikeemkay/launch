@@ -146,7 +146,7 @@ gulp.task("build", function (done) {
     runSequence("clean", "sass", "copy", done);
 });
 
-gulp.task("release", function () {
+gulp.task("release", function (done) {
     runSequence(
         "clean",
         "sass",
@@ -155,7 +155,8 @@ gulp.task("release", function () {
         "cssmin",
         "uncss",
         "jsmin",
-        "archive"
+        "archive",
+        done
     );
 });
 
