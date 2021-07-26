@@ -1,18 +1,18 @@
 # 🚀 Launch
 
-[![Autoprefixer](https://img.shields.io/badge/Autoprefixer-6.1.0-lightgrey.svg?style=flat-square&logo=Autoprefixer)](https://autoprefixer.github.io/)
-[![Babel](https://img.shields.io/badge/Babel-7.9.0-blue.svg?style=flat-square&logo=Babel&color=F9DC3E)](https://babeljs.io/)
-[![BrowserSync](https://img.shields.io/badge/BrowserSync-2.26.7-lightgrey.svg?style=flat-square&logo=BrowserSync)](https://www.browsersync.io/)
-[![Foundation](https://img.shields.io/badge/Foundation-6.6.2-lightgrey.svg?style=flat-square&logo=Foundation)](https://foundation.zurb.com/sites.html)
-[![Gulp](https://img.shields.io/badge/Gulp-3.9.1-red.svg?style=flat-square&logo=gulp&color=DA4648)](https://gulpjs.com/)
-[![jQuery](https://img.shields.io/badge/jQuery-3.4.1-blue.svg?style=flat-square&logo=jQuery&color=0769AD)](https://jquery.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-10.20.0-green.svg?style=flat-square&logo=node.js&color=339933)](https://nodejs.org/en/)
-[![NPM](https://img.shields.io/badge/NPM-6.14.4-blue.svg?style=flat-square&logo=npm&color=CB3837)](https://www.npmjs.com/)
-[![Prettier](https://img.shields.io/badge/Prettier-2.0.4-blue.svg?style=flat-square&logo=prettier&color=F7B93E)](https://prettier.io/)
+[![Autoprefixer](https://img.shields.io/badge/Autoprefixer-8.0.0-lightgrey.svg?style=flat-square&logo=Autoprefixer)](https://autoprefixer.github.io/)
+[![Babel](https://img.shields.io/badge/Babel-7.14.8-blue.svg?style=flat-square&logo=Babel&color=F9DC3E)](https://babeljs.io/)
+[![BrowserSync](https://img.shields.io/badge/BrowserSync-2.27.4-lightgrey.svg?style=flat-square&logo=BrowserSync)](https://www.browsersync.io/)
+[![Foundation](https://img.shields.io/badge/Foundation-6.6.3-lightgrey.svg?style=flat-square&logo=Foundation)](https://foundation.zurb.com/sites.html)
+[![Gulp](https://img.shields.io/badge/Gulp-4.0.2-red.svg?style=flat-square&logo=gulp&color=DA4648)](https://gulpjs.com/)
+[![jQuery](https://img.shields.io/badge/jQuery-3.6.0-blue.svg?style=flat-square&logo=jQuery&color=0769AD)](https://jquery.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-14.17.3-green.svg?style=flat-square&logo=node.js&color=339933)](https://nodejs.org/en/)
+[![NPM](https://img.shields.io/badge/NPM-6.14.10-blue.svg?style=flat-square&logo=npm&color=CB3837)](https://www.npmjs.com/)
+[![Prettier](https://img.shields.io/badge/Prettier-2.3.2-blue.svg?style=flat-square&logo=prettier&color=F7B93E)](https://prettier.io/)
 
 ![Launch](https://media.giphy.com/media/mi6DsSSNKDbUY/giphy-downsized-large.gif)
 
-# Introduction
+## Introduction
 
 Launch is a simple boilerplate project to help reduce the set up time of new static web projects. It provides a simple base of which websites can be built upon. It uses various tools, web technologies and frameworks to accomplish this - they are as follows:
 
@@ -33,28 +33,28 @@ Launch is a simple boilerplate project to help reduce the set up time of new sta
 
 1. Create a new directory for your project and navigate into it.
 
-```
-mkdir my-project
-cd my-project
-```
+    ```shell
+    mkdir my-project
+    cd my-project
+    ```
 
 2. Clone the Launch repository into the current folder.
 
-```
-git clone https://github.com/manlikeemkay/launch.git .
-```
+    ```shell
+    git clone https://github.com/manlikeemkay/launch.git .
+    ```
 
 3. Install build and application dependencies.
 
-```
-npm install
-```
+    ```shell
+    npm install
+    ```
 
 4. Build and serve the application (This will start a local server and point a browser to the correct address).
 
-```
-gulp
-```
+    ```shell
+    gulp
+    ```
 
 5. Get started! Make changes to the `index.html` file and the browser will refresh automatically once the application has been rebuilt.
 
@@ -68,13 +68,15 @@ gulp
 
 ## 📚 Acknowledgements
 
-Comprehensive system fonts: https://css-tricks.com/snippets/css/system-font-stack/ by [@geoffreygraham](https://twitter.com/geoffreygraham).
+Comprehensive system fonts: <https://css-tricks.com/snippets/css/system-font-stack/> by [@geoffreygraham](https://twitter.com/geoffreygraham).
 
-Flat UI colour scheme (British palette): https://flatuicolors.com/palette/gb.
+Flat UI colour scheme (British palette): <https://flatuicolors.com/palette/gb>.
 
-Metadata badges: https://shields.io/.
+Metadata badges: <https://shields.io/>.
 
-The MIT License: https://opensource.org/licenses/MIT.
+Migrating to Gulp 4: <https://www.sitepoint.com/how-to-migrate-to-gulp-4/>.
+
+The MIT License: <https://opensource.org/licenses/MIT>.
 
 ## ⚖️ License (MIT)
 
