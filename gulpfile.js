@@ -11,8 +11,8 @@ var autoprefixer = require("gulp-autoprefixer"),
     gutil = require("gulp-util"),
     npmPackage = require("./package.json"),
     removeEmptyLines = require("gulp-remove-empty-lines"),
-    runSequence = require("run-sequence"),
-    sass = require("gulp-sass"),
+    runSequence = require("gulp4-run-sequence"),
+    sass = require("gulp-sass")(require("node-sass")),
     stripCSSComments = require("gulp-strip-css-comments"),
     uglify = require("gulp-uglify"),
     uncss = require("gulp-uncss"),
@@ -28,11 +28,12 @@ gulp.task("update", function () {
         .pipe(gulp.dest("src/js/vendor/"));
 });
 
-gulp.task("copy", function () {
+gulp.task("copy", function (done) {
     gulp.src("src/fonts/**/**").pipe(gulp.dest("dist/fonts/"));
     gulp.src("src/images/**/**").pipe(gulp.dest("dist/images/"));
     gulp.src("src/js/**/**").pipe(gulp.dest("dist/js/"));
-    return gulp.src("src/**/**.html").pipe(gulp.dest("dist/"));
+    gulp.src("src/**/**.html").pipe(gulp.dest("dist/"));
+    done();
 });
 
 gulp.task("sass", function () {
@@ -124,14 +125,21 @@ gulp.task("archive", function () {
         .pipe(gulp.dest("."));
 });
 
-gulp.task("watch", function () {
+gulp.task("server", function () {
     browserSync.init({
         browser: "google chrome",
         server: {
-            baseDir: "dist/",
+            baseDir: "dist",
+            index: "/index.html",
         },
     });
-    gulp.watch(["src/**/**"], ["build", "patch", browserSync.reload]);
+});
+
+gulp.task("watch", function () {
+    gulp.watch(
+        ["src/**/**"],
+        runSequence("build", "patch", browserSync.reload)
+    );
 });
 
 gulp.task("build", function (done) {
@@ -152,5 +160,5 @@ gulp.task("release", function () {
 });
 
 gulp.task("default", function (done) {
-    runSequence("build", "watch", done);
+    runSequence("build", "server", "watch", done);
 });
